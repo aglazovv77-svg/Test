@@ -1,3 +1,4 @@
+import glazov.Less3;
 import glazov.Lesson1;
 
 void main() {
@@ -13,5 +14,7 @@ void main() {
 
         Lesson1 lesson2 = new Lesson1();
         lesson2.String("Hello");
+
+    Less3.sayHello();
 
 }

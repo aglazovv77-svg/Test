@@ -1,3 +1,4 @@
+import glazov.Less2;
 import glazov.Lesson1;
 
 void main() {
@@ -12,6 +13,8 @@ void main() {
         System.out.println("Summa = " + lesson1.sum(587, 1258));
 
         Lesson1 lesson2 = new Lesson1();
-        lesson2.String("Hello");
+        lesson2.String("Привет");
+
+    Less2.sayHello();
 
 }

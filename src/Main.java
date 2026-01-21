@@ -7,7 +7,7 @@ public static void main(String[] args) {
         System.out.println("Summa = " + lesson1.sum(587, 1258));
 
         Lesson1 lesson2 = new Lesson1();
-        lesson2.String("Hello, Alex!");
+        lesson2.stringSay("Hello, Alex!");
 
         Less2.sayHello();
 

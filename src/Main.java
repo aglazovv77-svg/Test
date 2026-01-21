@@ -3,7 +3,7 @@ import glazov.Lesson1;
 
 import static glazov.Lesson1.stringSay;
 
-public static void main(String[] args) {
+void main() {
 
         Lesson1 lesson1 = new Lesson1();
         System.out.println("Summa = " + lesson1.sum(587, 1258));

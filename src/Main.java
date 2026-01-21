@@ -1,5 +1,4 @@
 import glazov.Less2;
-import glazov.Less3;
 import glazov.Lesson1;
 
 public static void main(String[] args) {
@@ -11,6 +10,6 @@ public static void main(String[] args) {
         lesson2.String("Hello");
 
         Less2.sayHello();
-        Less3.sayHello();
+
 
 }

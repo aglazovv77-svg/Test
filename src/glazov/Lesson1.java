@@ -6,7 +6,7 @@ public class Lesson1 {
         return a + b;
     }
 
-    public void String(String string) {
+    public void stringSay(String string) {
         System.out.println(string);
     }
 }

@@ -1,5 +1,6 @@
 import glazov.Less2;
 import glazov.Lesson1;
+import glazov.Student;
 
 import static glazov.Lesson1.stringSay;
 
@@ -11,6 +12,14 @@ void main() {
         stringSay("Hello, Alex!");
 
         Less2.sayHello();
+
+        Student student1 = new Student("Alex", 25, "Biology", 1);
+        Student student2 = new Student("Shushana", 27, "Matematic", 2);
+        student1.setName("Elena");
+        student1.setAge(30);
+
+        System.out.println("Student = " + student1);
+        System.out.println("Student = " + student2);
 
 
 }

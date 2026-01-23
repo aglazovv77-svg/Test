@@ -14,7 +14,7 @@ void main() {
         Less2.sayHello();
 
         Student student1 = new Student("Alex", 25, "Biology", 1);
-        Student student2 = new Student("Shushana", 27, "Matematic", 2);
+        Student student2 = new Student("Susana", 27, "Mathematics", 2);
         student1.setName("Elena");
         student1.setAge(30);
 
